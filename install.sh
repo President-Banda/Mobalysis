@@ -1,4 +1,5 @@
 #!/bin/bash
+# Team E Script to set-up Mobalysis project
 ##### NUMBER HERE
 #clone the repository
 git clone https://github.com/President-Banda/Mobalysis.git
@@ -45,5 +46,3 @@ python3 backend/manage.py makemigrations
 
 # Install backend migrations
 python3 backend/manage.py migrate
-
-
